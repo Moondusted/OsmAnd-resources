@@ -922,6 +922,13 @@
 			<apply_if nightMode="true" attrColorValue="#4F7A73"/>
 		</case>
 	</renderingAttribute>
+	<renderingAttribute name="gpx">
+   		<case strokeWidth="3:2" cap="ROUND">
+       		<case nightMode="true" color="#b4b319ff"/>
+       		<case additional="routePoints=true" pathEffect="6_5" color="#ffff0000"/>
+       		<case color="#ffff0000"/>
+     		</case>
+	</renderingAttribute>
 	<renderingAttribute name="trackSubstrateColor">
 		<case noPolygons="true">
 			<apply attrColorValue="#99ffffff">
